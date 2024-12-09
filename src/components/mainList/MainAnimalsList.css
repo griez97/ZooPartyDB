@@ -16,17 +16,20 @@
 .mainAnimalList h2 {
     font-size: 48px; 
     margin: 0 0 10px 0;
+    cursor: default;
 }
 
 .mainAnimalList h3 {
     color: #ff6347; 
     font-size: 24px;
     margin: 0 0 15px 0;
+    cursor: default;
 }
 
 .mainAnimalList p {
     margin: 5px 0;
     font-size: 16px;
+    cursor: default;
 }
 
 .mainAnimalList ul {
@@ -46,4 +49,5 @@
     background-color: #ffdab9;
     transform: scale(1.05);
     transition: all 0.3s ease;
+    cursor: help;
 }

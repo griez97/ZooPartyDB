@@ -14,7 +14,7 @@ const MainAnimalsList: React.FC<AnimalList> = (props) => {
             <p>{props.animalList.species}</p>
             <p>{props.animalList.habitat}</p>
             <p>{props.animalList.diet}</p>
-            <p>{props.animalList.lifespan}</p>
+            <p>Lifespan: {props.animalList.lifespan} years</p>
             <ul>
                 {
                     props.animalList.funFacts.map((fact) =>(

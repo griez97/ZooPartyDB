@@ -1,0 +1,49 @@
+.mainAnimalList {
+    background-color: #f0f8ff;
+    border: 3px solid #ffa07a;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 300px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #4a4a4a;
+    text-align: center;
+}
+
+.mainAnimalList h2 {
+    font-size: 48px; 
+    margin: 0 0 10px 0;
+}
+
+.mainAnimalList h3 {
+    color: #ff6347; 
+    font-size: 24px;
+    margin: 0 0 15px 0;
+}
+
+.mainAnimalList p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.mainAnimalList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.mainAnimalList li {
+    background-color: #fffacd;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.mainAnimalList li:hover {
+    background-color: #ffdab9;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}

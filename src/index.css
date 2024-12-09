@@ -1,0 +1,11 @@
+:root{
+    background-image: url(./assets/img/jaec_vpv6_220610.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#root{
+    align-items: center;
+}

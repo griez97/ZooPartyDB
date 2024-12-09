@@ -1,0 +1,25 @@
+.animalContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mainAnimalList {
+    flex: 0 1 300px; 
+}
+
+@media (max-width: 768px) {
+    .animalContainer {
+    flex-direction: column;
+    align-items: center;
+}
+
+    .mainAnimalList {
+    width: 100%;
+    max-width: 300px;
+    }
+}
